@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2.0rem;
+    padding: 25px;
+    background-color: rgb(250,235,215);
+}
+
+article {
+    margin: 40px auto;
+    padding: 40px;
+    max-width: 800px;
+    background: rgb(255,255,240);
+    border-radius: 15px;
+    border: 3px solid rgb(222,184,135);
+}
+
+h1, h2, h3 {
+    color: rgb(222,184,135);
+    text-align: center;
+}
+
+h2, h3 {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #DEB887; 
+    font-weight: 500;
+}
+
+h4 {
+    color: #6f7275;
+}
+
+#header p {
+    color: rgb(105,105,105);
+    text-align: center;
+}
+
+header h1 {
+    font-weight: bolder;
+}
+
+header h3 {
+    font-style: italic;
+    font-weight: 400;
+}
+
+li, p {
+    color: rgb(105,105,105);
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.recipe-img {
+    max-width: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.ingredients ul, .method ol {
+    margin: 25px 0;
+}
+
+.ingredients li, .method li {
+    margin-bottom: 10px;
+}
+
+.ingredients li {
+    list-style-type: square;
+}
+
+.ingredients li::marker {
+    color: burlywood;
+}
+
+a {
+    text-decoration: none;
+    color: #DEB887;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: #CD853F;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #DEB887;
+}
